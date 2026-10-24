@@ -6,23 +6,23 @@ Site: [benihacking.top](https://benihacking.top) · GitHub: [Dextheking1](https:
 
 ## Record
 
-Counts verified against GitHub on 2026-10-24.
+Counts verified against GitHub on 2026-10-25.
 
 | | |
 |---|---|
 | Security fix PRs merged | 4 |
 | Security fix PRs open and under review | 58 |
-| GitHub advisories filed, in coordinated disclosure | 11 |
+| GitHub advisories filed, in coordinated disclosure | 20 |
 | Advisories published | 0 |
-| Coordinated disclosures in progress, all channels | 26 |
+| Coordinated disclosures in progress, all channels | 37 |
 
-Advisories are published by project maintainers at the end of coordinated disclosure, not by the reporter. The 11 filed advisories are in triage with the maintainers; published ones will be listed here as they land.
+Advisories are published by project maintainers at the end of coordinated disclosure, not by the reporter. The 20 filed advisories are in triage with the maintainers; published ones will be listed here as they land.
 
 ## Published advisories
 
 | GHSA | Project | Severity | Link |
 |---|---|---|---|
-| None published yet | 11 advisories filed and in coordinated disclosure | | |
+| None published yet | 20 advisories filed and in coordinated disclosure | | |
 
 ## Merged security fixes
 
