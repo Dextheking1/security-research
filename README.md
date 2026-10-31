@@ -15,6 +15,7 @@ Counts verified against GitHub on 2026-10-25.
 | GitHub advisories filed, in coordinated disclosure | 20 |
 | Advisories published | 0 |
 | Coordinated disclosures in progress, all channels | 37 |
+| Vendor fixes merged from my disclosures | 7 (KiroCrew, Oct 2026) |
 
 Advisories are published by project maintainers at the end of coordinated disclosure, not by the reporter. The 20 filed advisories are in triage with the maintainers; published ones will be listed here as they land.
 
@@ -32,6 +33,21 @@ Advisories are published by project maintainers at the end of coordinated disclo
 | ruvnet/ruflo | [#4418](https://github.com/ruvnet/ruflo/pull/4418) | Unguessable MCP session ids (crypto randomUUID) |
 | kirodotdev/KiroCrew | [#23327](https://github.com/kirodotdev/KiroCrew/pull/23327) | Snapshot tar filter rejects special files (FIFO, device nodes) on extraction |
 | takiAA/twitter-scraper-mcp | [#13](https://github.com/takiAA/twitter-scraper-mcp/pull/13) | Worker child process receives an environment allowlist instead of the server's full environment |
+
+## Vendor-confirmed disclosures
+
+### KiroCrew (kirodotdev/KiroCrew), disclosed Oct 2026
+
+18 findings reported through the project's security process. The vendor checked every item against current main and merged fixes for six items:
+
+- Snapshot restore paused executable state: [PR 24318](https://github.com/kirodotdev/KiroCrew/pull/24318)
+- Cron approval_mode "auto" restricted to the owner: [PR 24352](https://github.com/kirodotdev/KiroCrew/pull/24352)
+- macOS cc tier masks ~/.aws: [PR 24319](https://github.com/kirodotdev/KiroCrew/pull/24319)
+- Episodic header and DATA framing: [PR 24330](https://github.com/kirodotdev/KiroCrew/pull/24330)
+- Installer pins: [PR 24321](https://github.com/kirodotdev/KiroCrew/pull/24321), [PR 24332](https://github.com/kirodotdev/KiroCrew/pull/24332)
+- Legacy webhook token masked in settings reads, plus one extra unmasked secret the vendor found and fixed in the same pass: [PR 24324](https://github.com/kirodotdev/KiroCrew/pull/24324)
+
+Added to the project's contributor list, Oct 2026.
 
 ## Selected fixes under review
 
